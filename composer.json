@@ -1,0 +1,20 @@
+{
+    "name": "beltranc/webservice",
+    "description": "Call service by Rest and SOAP",
+    "license": "OSL-3.0",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Will Beltran",
+            "email": "devbeltranc@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "BeltranC\\": "src/"
+        }
+    }
+}
